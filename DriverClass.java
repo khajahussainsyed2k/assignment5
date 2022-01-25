@@ -36,7 +36,8 @@ public class DriverClass{
         Class1 object1=new Class1();
         object1.printVariables();
         object1.localVarible();
-
+        //static methods can be called without objects they can be directly called
+        //with class names
         Class2 object2=Class2.stringMethod("jj");
 
         object2.method2("hello");
